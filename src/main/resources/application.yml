@@ -1,0 +1,24 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+
+thymeleaf:
+  mode: HTML
+
+logging:
+  file:
+    name: ./log/spring-cdos.log
+  level:
+    web: DEBUG
+    de.astora.cdos: DEBUG
+    org:
+      hibernate:
+        SQL: INFO # DEBUG for SQL queries
+        type: INFO # TRACE for SQL parameters
+        stat: DEBUG
