@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
-@Table(name = "role")
+@Table(name = "user_dao")
 public class UserDao {
 
     @Id
