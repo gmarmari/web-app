@@ -20,12 +20,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: example
 
-  adminer:
-    container_name: web-app-adminer
-    image: adminer
-    restart: always
-    ports:
-      - "8080:8080"
+
+
 
 
 
