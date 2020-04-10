@@ -1,7 +1,7 @@
-package com.marmaris.dto;
+package com.marmaris.common.dto;
 
 
-import com.marmaris.utils.ClassUtils;
+import com.marmaris.common.utils.ClassUtils;
 import nl.jqno.equalsverifier.EqualsVerifier;
 import nl.jqno.equalsverifier.EqualsVerifierApi;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -29,7 +29,7 @@ class EqualsTests {
 
     private static Stream<Arguments> getDtoClasses() {
         RegexPatternTypeFilter filter = new RegexPatternTypeFilter(Pattern.compile(".*Dto$"));
-        return ClassUtils.getClassesByPackage("com.marmaris.dto", filter)
+        return ClassUtils.getClassesByPackage("com.marmaris.common.dto", filter)
                 .stream()
                 .map(Arguments::of);
     }

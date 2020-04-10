@@ -1,9 +1,9 @@
-package com.marmaris.converter;
+package com.marmaris.persistence.converter;
 
-import com.marmaris.dao.UserDao;
-import com.marmaris.dto.UserDto;
-import com.marmaris.dto.UserDtoBuilder;
-import com.marmaris.enums.Role;
+import com.marmaris.persistence.dao.UserDao;
+import com.marmaris.common.dto.UserDto;
+import com.marmaris.common.dto.UserDtoBuilder;
+import com.marmaris.common.enums.Role;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

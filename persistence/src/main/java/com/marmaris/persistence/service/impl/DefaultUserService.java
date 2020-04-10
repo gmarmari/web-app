@@ -1,9 +1,9 @@
-package com.marmaris.service.impl;
+package com.marmaris.persistence.service.impl;
 
-import com.marmaris.converter.UserConverter;
-import com.marmaris.dto.UserDto;
-import com.marmaris.repository.UserRepository;
-import com.marmaris.service.UserService;
+import com.marmaris.persistence.converter.UserConverter;
+import com.marmaris.common.dto.UserDto;
+import com.marmaris.persistence.repository.UserRepository;
+import com.marmaris.persistence.service.UserService;
 import org.springframework.stereotype.Service;
 
 import javax.persistence.EntityNotFoundException;

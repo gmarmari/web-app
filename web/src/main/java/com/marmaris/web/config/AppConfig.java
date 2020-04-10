@@ -1,4 +1,4 @@
-package com.marmaris.config;
+package com.marmaris.web.config;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;

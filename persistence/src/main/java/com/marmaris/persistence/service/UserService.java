@@ -1,6 +1,6 @@
-package com.marmaris.service;
+package com.marmaris.persistence.service;
 
-import com.marmaris.dto.UserDto;
+import com.marmaris.common.dto.UserDto;
 
 public interface UserService {
 

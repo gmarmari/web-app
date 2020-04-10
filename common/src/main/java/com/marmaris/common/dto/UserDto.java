@@ -1,6 +1,6 @@
-package com.marmaris.dto;
+package com.marmaris.common.dto;
 
-import com.marmaris.enums.Role;
+import com.marmaris.common.enums.Role;
 import net.karneim.pojobuilder.GeneratePojoBuilder;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;

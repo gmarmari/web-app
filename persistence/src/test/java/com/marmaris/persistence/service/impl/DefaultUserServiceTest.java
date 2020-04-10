@@ -1,13 +1,13 @@
-package com.marmaris.service.impl;
+package com.marmaris.persistence.service.impl;
 
 
-import com.marmaris.converter.UserConverter;
-import com.marmaris.dao.UserDao;
-import com.marmaris.dto.UserDto;
-import com.marmaris.dto.UserDtoBuilder;
-import com.marmaris.enums.Role;
-import com.marmaris.repository.UserRepository;
-import com.marmaris.service.UserService;
+import com.marmaris.persistence.converter.UserConverter;
+import com.marmaris.persistence.dao.UserDao;
+import com.marmaris.common.dto.UserDto;
+import com.marmaris.common.dto.UserDtoBuilder;
+import com.marmaris.common.enums.Role;
+import com.marmaris.persistence.repository.UserRepository;
+import com.marmaris.persistence.service.UserService;
 import org.junit.jupiter.api.Test;
 
 import javax.persistence.EntityNotFoundException;
