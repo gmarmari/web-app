@@ -1,4 +1,4 @@
-package com.marmaris.common.utils;
+package com.marmaris.persistence.utils;
 
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider;

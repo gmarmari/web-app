@@ -26,7 +26,6 @@
 	<modules>
 		<module>persistence</module>
 		<module>web</module>
-		<module>common</module>
 	</modules>
 
 	<dependencies>

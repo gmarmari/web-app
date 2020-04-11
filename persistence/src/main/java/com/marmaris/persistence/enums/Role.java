@@ -1,4 +1,4 @@
-package com.marmaris.common.enums;
+package com.marmaris.persistence.enums;
 
 public enum Role {
     ADMIN,

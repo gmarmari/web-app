@@ -1,7 +1,7 @@
 package com.marmaris.persistence.service.impl;
 
 import com.marmaris.persistence.converter.UserConverter;
-import com.marmaris.common.dto.UserDto;
+import com.marmaris.persistence.dto.UserDto;
 import com.marmaris.persistence.repository.UserRepository;
 import com.marmaris.persistence.service.UserService;
 import org.springframework.stereotype.Service;

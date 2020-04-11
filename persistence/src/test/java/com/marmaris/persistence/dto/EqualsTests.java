@@ -1,4 +1,4 @@
-package com.marmaris.common.dto;
+package com.marmaris.persistence.dto;
 
 
 import com.marmaris.common.utils.ClassUtils;
@@ -29,7 +29,7 @@ class EqualsTests {
 
     private static Stream<Arguments> getDtoClasses() {
         RegexPatternTypeFilter filter = new RegexPatternTypeFilter(Pattern.compile(".*Dto$"));
-        return ClassUtils.getClassesByPackage("com.marmaris.common.dto", filter)
+        return ClassUtils.getClassesByPackage("com.marmaris.persistence.dto", filter)
                 .stream()
                 .map(Arguments::of);
     }
