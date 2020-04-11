@@ -1,8 +1,8 @@
 package com.marmaris.persistence.converter;
 
 import com.marmaris.persistence.dao.UserDao;
-import com.marmaris.common.dto.UserDto;
-import com.marmaris.common.dto.UserDtoBuilder;
+import com.marmaris.persistence.dto.UserDto;
+import com.marmaris.persistence.dto.UserDtoBuilder;
 import org.springframework.stereotype.Component;
 
 @Component

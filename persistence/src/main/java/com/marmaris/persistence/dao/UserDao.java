@@ -1,6 +1,6 @@
 package com.marmaris.persistence.dao;
 
-import com.marmaris.common.enums.Role;
+import com.marmaris.persistence.enums.Role;
 
 import javax.persistence.*;
 import java.util.Objects;
