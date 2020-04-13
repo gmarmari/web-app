@@ -31,4 +31,4 @@ build/
 .vscode/
 
 log/
-web/log/spring-cdos.log
+*/log/
