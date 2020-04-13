@@ -1,0 +1,5 @@
+database:
+  jdbcUrl: jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;MODE=MSSQLServer;
+  driverClassName: org.h2.Driver
+  user: sa
+  password:

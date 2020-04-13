@@ -1,0 +1,5 @@
+database:
+  jdbcUrl: jdbc:postgresql://localhost:5432/db
+  driverClassName: org.postgresql.Driver
+  user: postgres
+  password: postgres
