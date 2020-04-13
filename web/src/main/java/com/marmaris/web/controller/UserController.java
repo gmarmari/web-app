@@ -20,15 +20,10 @@ public class UserController {
 
     @GetMapping("/")
     public String homePage(Model model) {
-        return "home";
-    }
-
-    @GetMapping("/user")
-    public String user(Model model) {
         UserDto userDto = userService.findById(1L);
+        model.addAttribute("username", userDto.getName());
         return "home";
     }
-
 
 }
 
