@@ -1,7 +1,7 @@
 package com.marmaris.persistence.dto;
 
 
-import com.marmaris.common.utils.ClassUtils;
+import com.marmaris.persistence.utils.ClassUtils;
 import nl.jqno.equalsverifier.EqualsVerifier;
 import nl.jqno.equalsverifier.EqualsVerifierApi;
 import org.junit.jupiter.params.ParameterizedTest;
